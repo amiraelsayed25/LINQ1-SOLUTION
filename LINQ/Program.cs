@@ -33,6 +33,17 @@ namespace LINQ
 			//	Console	.WriteLine($"{P.ProductName}-{P.UnitPrice}");
 			//}
 
+			////Q 4. Get all products where UnitPrice is between 10 and 30
+			//var Between10and30 = ProductList
+			//	.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+			//foreach (var p in Between10and30) 
+			//{ 
+			//    Console.WriteLine($"{p.UnitPrice}");
+			//}
+
+
+
+
 
 
 
