@@ -17,6 +17,14 @@ namespace LINQ
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 			//}
 
+			////Q2 
+			//var ProductName = ProductList
+			//	.Select(p => p.ProductName);
+			//foreach (var p in ProductName)
+			//{
+			//	Console.WriteLine($"{p}");
+			//}
+
 
 
 		}
