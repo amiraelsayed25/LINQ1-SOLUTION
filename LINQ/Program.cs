@@ -126,6 +126,21 @@ namespace LINQ
 			//}
 
 
+			////Q11. Show position number alongside ProductName
+			//var products = ProductList
+			//	.Select((p, index) => new
+			//	{
+			//		Position = index + 1,
+			//		ProductName = p.ProductName
+			//	});
+
+			//foreach (var p in products)
+			//{
+			//	Console.WriteLine($"{p.Position}. {p.ProductName}");
+			//}
+
+
+
 		}
 	}
 };
