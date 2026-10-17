@@ -74,6 +74,22 @@ namespace LINQ
 			//}
 
 
+			////Q7 7. Print each product's name along with its position (1-based)in the list. Expected format: 1.Chai, 2.Chang, etc.
+			//var products = ProductList
+			//	.Select((p, index) => new
+			//	{
+			//		Position = index + 1,
+			//		Name = p.ProductName
+			//	});
+
+			//foreach (var p in products)
+			//{
+			//	Console.WriteLine($"{p.Position}. {p.Name}");
+			//}
+
+
+
+
 
 
 
