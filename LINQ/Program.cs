@@ -1,7 +1,9 @@
-﻿using static LINQ.DataSources.Source;
-using LINQ.Models;
+﻿using LINQ.Models;
 using System;
+using System.Drawing;
 using System.Linq;
+using System.Xml.Linq;
+using static LINQ.DataSources.Source;
 namespace LINQ
 {
 	public class Program
@@ -48,6 +50,29 @@ namespace LINQ
 			//{
 			//	Console.WriteLine($"{p.UnitsInStock}-{p.ProductName}");
 			//}
+
+
+			////Q6 6. Create a new anonymous type with three properties:
+			////● Name → the product name
+			////● Price → the unit price
+			////● StockStatus → a string: "Available" if UnitsInStock > 0,otherwise "Out of Stock"
+			////● Print the result.
+
+			//var Product = ProductList
+			//	.Select(p => new
+			//	{
+			//		Name = p.ProductName,
+			//		Price = p.UnitPrice,
+			//		StockStatus= p.UnitsInStock > 0
+			//		? "Available"
+			//		: "Out of Stock"
+			//	}
+			//	);
+			//foreach ( var p in Product )
+			//{
+			//	Console	.WriteLine($"{p.Name} - {p.Price} - {p.StockStatus}");
+			//}
+
 
 
 
