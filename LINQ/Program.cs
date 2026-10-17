@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Xml.Linq;
 using static LINQ.DataSources.Source;
 namespace LINQ
@@ -98,8 +99,8 @@ namespace LINQ
 
 			////Q9 9. Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
 			//  var Products = ProductList
-	  //       .Where(p => p.Category == "Beverages")
-	  //       .OrderByDescending(p => p.UnitsInStock);
+			//       .Where(p => p.Category == "Beverages")
+			//       .OrderByDescending(p => p.UnitsInStock);
 
 			//foreach (var p in Products)
 			//{
@@ -107,15 +108,24 @@ namespace LINQ
 			//		$"{p.ProductName} - Stock: {p.UnitsInStock}");
 			//}
 
+			////Q10 10. Using QUERY SYNTAX with a compound from clause, listall orders placed in 1997 or later showing CustomerID and OrderDate.
+			//var orders =
+			//from c in Customer
+			//from o in c.Orders
+			//where o.OrderDate >= new DateTime(1997, 1, 1)
+			//select new
+			//{
+			//	c.CustomerID,
+			//	o.OrderDate
+			//};
 
-
-
-
-
-
-
+			//foreach (var order in orders)
+			//{
+			//	Console.WriteLine(
+			//		$"{order.CustomerID} - {order.OrderDate}");
+			//}
 
 
 		}
 	}
-}
+};
