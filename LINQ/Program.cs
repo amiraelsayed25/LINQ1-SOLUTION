@@ -8,17 +8,17 @@ namespace LINQ
 	{
 		static void Main(string[] args)
 		{
-		
+
 			////	Q1
 			//var SeafoodProducts = ProductList
 			//	.Where(p => p.Category == "Seafood");
-			//     foreach(var p in SeafoodProducts)
+			//foreach (var p in SeafoodProducts)
 			//{
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 			//}
 
 
-			
+
 		}
 	}
 }
