@@ -25,6 +25,16 @@ namespace LINQ
 			//	Console.WriteLine($"{p}");
 			//}
 
+			////Q3
+			//var SortedProducts = ProductList
+			//	.OrderBy(p => p.UnitPrice);
+			//foreach (var P in SortedProducts)
+			//{
+			//	Console	.WriteLine($"{P.ProductName}-{P.UnitPrice}");
+			//}
+
+
+
 
 
 		}
