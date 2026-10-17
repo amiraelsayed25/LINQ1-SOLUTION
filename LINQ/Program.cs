@@ -87,6 +87,15 @@ namespace LINQ
 			//	Console.WriteLine($"{p.Position}. {p.Name}");
 			//}
 
+			////Q8 8. Sort ProductList by Category ascending, then within eachcategory, sort by UnitPrice descending.
+			//var Categoryascending = ProductList
+			//	 .OrderBy(p => p.Category)
+	  //          .ThenByDescending(p => p.UnitPrice);
+			//foreach (var p in Categoryascending)
+			//{
+			//	Console.WriteLine($"{p.Category} - {p.ProductName} - {p.UnitPrice}");
+			//}
+
 
 
 
